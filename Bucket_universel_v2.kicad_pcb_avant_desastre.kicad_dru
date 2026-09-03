@@ -1,0 +1,5 @@
+(version 1)
+(rule "U8 internal pad clearance"
+    (condition "A.Reference == 'U8' && B.Reference == 'U8'")
+    (constraint clearance (min 0.19mm))
+)

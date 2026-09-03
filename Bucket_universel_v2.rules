@@ -1,0 +1,71 @@
+
+(rules PCB Bucket_universel_v2.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (rule
+    (width 200.0)
+    (clearance 200.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    +5V GND "Net-(U8-SS)" "Net-(U11-VREF)" +3V3 "Net-(U1-NHOME)" "Net-(U2-VREF)" "Net-(R17-Pad1)"
+    /Microcontroller/RUN GPIO16 "Net-(J11-Pin_1)" GPIO10 GPIO11 "Net-(U11-NFAULT)" "Net-(U11-IPROPI)" "Net-(J12-Pin_1)"
+    "Net-(J12-Pin_3)" +12V "Net-(U11-VCP)" "Net-(U11-CPH)" "Net-(U11-CPL)" /Microcontroller/XOUT "Net-(C13-Pad1)" "Net-(U1-VCP)"
+    "/Controlle_moteur/OA1" "/Controlle_moteur/OA2" "/Controlle_moteur/OB2" "/Controlle_moteur/OB1" VBUS "Net-(U12-OUT)" /Microcontroller/GPIO0 /Microcontroller/GPIO1
+    /Microcontroller/GPIO2 /Microcontroller/GPIO3 /Microcontroller/GPIO4 /Microcontroller/GPIO5 /Microcontroller/GPIO6 /Microcontroller/GPIO7 /Microcontroller/GPIO8 /Microcontroller/GPIO9
+    /Microcontroller/GPIO10 /Microcontroller/GPIO11 /Microcontroller/GPIO12 /Microcontroller/GPIO13 /Microcontroller/GPIO14 /Microcontroller/GPIO15 /PSU/Ven /Microcontroller/XIN
+    +1V1 "/Microcontroller/VREG_LX" "/Microcontroller/VREG_AVDD" GPIO12 "Net-(J8-Pin_1)" "Net-(U8-BST)" "Net-(C33-Pad2)" "Net-(D5-K)"
+    "Net-(U1-V3P3OUT)" "Net-(J9-Pin_2)" "Net-(U2-CPH)" "Net-(U2-CPL)" "/Microcontroller/FLASH_SS" "Net-(U2-VCP)" "unconnected-(U8-PGOOD-Pad1)" "Net-(U8-FB)"
+    "Net-(U8-TON)" "Net-(U1-ISENB)" "/Microcontroller/QSPI_SS" "/Microcontroller/~{USB_BOOT}" "Net-(U2-NFAULT)" /Microcontroller/SWCLK /Microcontroller/SWD /Microcontroller/GPIO16
+    /Microcontroller/GPIO17 /Microcontroller/GPIO18 /Microcontroller/GPIO19 /Microcontroller/GPIO20 /Microcontroller/GPIO21 /Microcontroller/GPIO22 /Microcontroller/GPIO23 /Microcontroller/GPIO24
+    /Microcontroller/GPIO25 "/Microcontroller/GPIO26_ADC0" "/Microcontroller/GPIO27_ADC1" "/Microcontroller/GPIO28_ADC2" "/Microcontroller/GPIO29_ADC3" "Net-(U5-USB_DM)" "Net-(U5-USB_DP)" "/Microcontroller/QSPI_SD3"
+    "/Microcontroller/QSPI_SCLK" "/Microcontroller/QSPI_SD0" "/Microcontroller/QSPI_SD2" "/Microcontroller/QSPI_SD1" "Net-(U1-AVREF)" "Net-(D1-K)" GPIO29 "Net-(U1-ISENA)"
+    GPIO5 GPIO3 GPIO6 GPIO14 "Net-(J10-Pin_1)" "/Microcontroller/USB_D-" "/Microcontroller/USB_D+" "unconnected-(J6-ID-Pad4)"
+    "Net-(J5-Pin_1)" "Net-(J5-Pin_3)" GPIO8 GPIO9 "Net-(U2-IPROPI)" "Net-(U1-CP1)" "Net-(U1-CP2)" "Net-(U1-NFAULT)"
+    "unconnected-(U1-DECAY-Pad19)" GPIO4 GPIO2 GPIO7 "unconnected-(U1-NC-Pad23)" GPIO1 GPIO0 GPIO15
+    GPIO13 GPIO17 GPIO18 GPIO19 GPIO20 GPIO21 GPIO22 GPIO23
+    GPIO24 GPIO25 GPIO26 GPIO27 GPIO28
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
