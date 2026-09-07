@@ -1922,7 +1922,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Rework_local:LM7805MP_NOPB_TAB4"
+		(symbol "Regulator_Linear:L7805"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1941,7 +1941,7 @@
 					)
 				)
 			)
-			(property "Value" "LM7805MP/NOPB"
+			(property "Value" "L7805"
 				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1965,7 +1965,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm340.pdf"
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
 				(at 0 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1976,7 +1976,7 @@
 					)
 				)
 			)
-			(property "Description" "TI LM7805MP/NOPB, 5 V linear regulator, SOT-223 DCY, tab pad 4 connected to GND"
+			(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2009,7 +2009,7 @@
 					)
 				)
 			)
-			(symbol "LM7805MP_NOPB_TAB4_0_1"
+			(symbol "L7805_0_1"
 				(rectangle
 					(start -5.08 1.905)
 					(end 5.08 -5.08)
@@ -2022,7 +2022,7 @@
 					)
 				)
 			)
-			(symbol "LM7805MP_NOPB_TAB4_1_1"
+			(symbol "L7805_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -2077,10 +2077,7 @@
 						)
 					)
 				)
-			
-(pin passive line (at 2.54 -7.62 90) (length 2.54) (name "TAB" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
-
-)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
@@ -4334,7 +4331,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rework_local:LM7805MP_NOPB_TAB4")
+		(lib_id "Regulator_Linear:L7805")
 		(at 153.67 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -4355,7 +4352,7 @@
 				)
 			)
 		)
-		(property "Value" "LM7805MP/NOPB"
+		(property "Value" "L7805"
 			(at 153.67 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4378,7 +4375,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm340.pdf"
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
 			(at 153.67 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4389,7 +4386,7 @@
 				)
 			)
 		)
-		(property "Description" "TI LM7805MP/NOPB, 5 V linear regulator, SOT-223 DCY, tab pad 4 connected to GND"
+		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
 			(at 153.67 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4417,10 +4414,7 @@
 				)
 			)
 		)
-	
-(pin "4" (uuid "87f73b68-92fc-4ecd-860c-d43aff1071e2"))
-
-)
+	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 104.14 95.25 0)
@@ -7092,7 +7086,4 @@
 			)
 		)
 	)
-
-(wire (pts (xy 153.6700 46.9900) (xy 156.2100 46.9900)) (stroke (width 0) (type default)) (uuid "3155d2ec-2dd7-4ba3-835d-9b9b77ac2a1e"))
-
 )

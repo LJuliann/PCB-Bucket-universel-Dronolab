@@ -9933,8 +9933,7 @@
 		)
 		(uuid "56868842-f8c1-46cc-8b48-46f4714d7cc2")
 	)
-	(hierarchical_label "GPIO7"
-		(shape input)
+	(label "GPIO7"
 		(at 243.205 125.095 180)
 		(effects
 			(font
@@ -10384,8 +10383,7 @@
 		)
 		(uuid "f1dcb896-f036-4e7d-896c-2d05a04113bc")
 	)
-	(hierarchical_label "GPIO4"
-		(shape input)
+	(label "GPIO4"
 		(at 243.205 117.475 180)
 		(effects
 			(font
@@ -10435,8 +10433,7 @@
 		)
 		(uuid "fc7a4cfd-575c-479b-b627-a4acf2874083")
 	)
-	(hierarchical_label "GPIO2"
-		(shape input)
+	(label "GPIO2"
 		(at 243.205 112.395 180)
 		(effects
 			(font
@@ -10771,7 +10768,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "0a234e14-4c6a-45bd-b837-87bbbb5f3354")
 		(property "Reference" "R15"
 			(at 58.928 110.5916 0)
@@ -11259,7 +11256,80 @@
 			)
 		)
 	)
-	
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 249.555 254.635 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16f1cce1-efaa-4e9b-b738-e66e4b3ad839")
+		(property "Reference" "H5"
+			(at 252.095 253.4666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 252.095 255.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 249.555 254.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 249.555 254.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 249.555 254.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Bucket_universel_v2"
+				(path "/cbe75931-5a4a-4bd6-acc1-2ae6866bf9f4/c7b3af29-9a6d-4088-a6ff-cfd0c3a49a9c"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 72.39 140.97 0)
@@ -13244,7 +13314,80 @@
 			)
 		)
 	)
-	
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 249.555 269.875 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "783fed07-e089-41fa-a857-4ab5a5c0e9c1")
+		(property "Reference" "H8"
+			(at 252.095 268.7066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 252.095 271.018 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 249.555 269.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 249.555 269.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 249.555 269.875 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Bucket_universel_v2"
+				(path "/cbe75931-5a4a-4bd6-acc1-2ae6866bf9f4/c7b3af29-9a6d-4088-a6ff-cfd0c3a49a9c"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 278.765 61.595 0)
@@ -14476,7 +14619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rework_local:USB4105_GND_heel_relief"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 26.67 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14569,7 +14712,80 @@
 			)
 		)
 	)
-	
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 249.555 259.715 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bab46f41-0a4d-4592-b1a6-384f5e45fd71")
+		(property "Reference" "H6"
+			(at 252.095 258.5466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 252.095 260.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 249.555 259.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 249.555 259.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 249.555 259.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Bucket_universel_v2"
+				(path "/cbe75931-5a4a-4bd6-acc1-2ae6866bf9f4/c7b3af29-9a6d-4088-a6ff-cfd0c3a49a9c"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 142.24 118.745 270)
@@ -14877,7 +15093,80 @@
 			)
 		)
 	)
-	
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 249.555 264.795 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3a83add-4531-4243-88fc-7097c3f0d510")
+		(property "Reference" "H7"
+			(at 252.095 263.6266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 252.095 265.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 249.555 264.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 249.555 264.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 249.555 264.795 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Bucket_universel_v2"
+				(path "/cbe75931-5a4a-4bd6-acc1-2ae6866bf9f4/c7b3af29-9a6d-4088-a6ff-cfd0c3a49a9c"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 87.63 48.26 0)
@@ -15982,7 +16271,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "e9445323-c977-4585-ac07-147ddb51bf21")
 		(property "Reference" "R13"
 			(at 35.6616 116.332 0)
