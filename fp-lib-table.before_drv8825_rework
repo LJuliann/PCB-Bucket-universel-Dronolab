@@ -1,8 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "DRV8874PWPR") (type "KiCad") (uri "${KIPRJMOD}/DRV8874PWPR") (options "") (descr ""))
-	(lib (name "DRV8825") (type "KiCad") (uri "${KIPRJMOD}/ul_DRV8825PWPR/KiCADv6/footprints.pretty") (options "") (descr ""))
-	(lib (name "7805") (type "KiCad") (uri "${KIPRJMOD}/ul_LM7805MPX-NOPB/KiCADv6/footprints.pretty") (options "") (descr ""))
-	(lib (name "RP2350_60QFN_minimal") (type "KiCad") (uri "${KIPRJMOD}/RP2350_60QFN_minimal.pretty") (options "") (descr ""))
-	(lib (name "AOZ2261AQI_15") (type "KiCad") (uri "${KIPRJMOD}/AOZ2261AQI_15/AOZ2261AQI_15.pretty") (options "") (descr ""))
-)

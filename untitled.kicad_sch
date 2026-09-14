@@ -4325,7 +4325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "23k"
 			(at 92.71 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5166,7 +5166,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220m 0.5W 1%"
+		(property "Value" "100m"
 			(at 82.55 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5177,7 +5177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.232 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -5839,7 +5839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220m 0.5W 1%"
+		(property "Value" "100m"
 			(at 87.63 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5850,7 +5850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.312 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -6009,7 +6009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV8825_local:PWP28_TI_1p5x0p45_EP3p1x5p18"
+		(property "Footprint" "DRV8825:PWP28_5P18X3P1"
 			(at 100.33 88.9 0)
 			(hide yes)
 			(show_name no)
